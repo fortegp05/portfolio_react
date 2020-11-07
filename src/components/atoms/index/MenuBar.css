@@ -1,0 +1,40 @@
+
+/* メニュー全体を囲むブロック */
+.menubar {
+  margin-bottom: 40px;	/* メニューの下に空けるスペース */
+  font-size: 18px;	/* 文字サイズ */
+  text-align: center;	/* 文字をセンタリング */
+}
+
+.menubar ul li {
+  display: inline;	/* 横並びにする設定 */
+  padding: 15px 30px;	/* 各メニュー内の余白。上下に15px、左右に30pxあけるという意味。 */
+}
+
+.menubar ul li button {
+  padding: 0;
+  font-family: inherit;
+  font-size: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+/* マウスオン時、現在表示中、の設定 */
+.menubar ul li button:hover,
+.menubar ul li button.current {
+  color: #224acf;	/* 文字色 */
+  border-bottom: 4px solid #224acf;	/* 下線の幅、線種、色 */
+}
+
+/* 画面幅580px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 580px) {
+  /* メニュー１個あたりの設定 */
+  .menubar ul li {
+    display: block;	/* 縦並びにする設定 */
+  }
+}

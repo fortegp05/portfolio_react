@@ -1,0 +1,16 @@
+.circle_icon {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* 画面幅580px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 580px) {
+  .circle_icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+}

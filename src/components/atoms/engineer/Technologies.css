@@ -1,0 +1,20 @@
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 125px;
+  height: 125px;
+  margin: 5px;
+  text-align: center;
+}
+
+.skillLogo {
+  max-width: 75px;
+  height: auto;
+}
+
+.slillLogoLong {
+  max-width: 125px;
+  height: auto;
+}

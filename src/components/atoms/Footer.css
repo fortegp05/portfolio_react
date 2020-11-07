@@ -1,0 +1,15 @@
+footer {
+  padding: 50px 0 0;	/* 上、左右、下へのボックス内の余白 */
+  clear: both;
+  text-align: center;	/* 文字をセンタリング */
+}
+
+footer a {
+  text-decoration: none;
+  border: none;
+}
+
+footer .pr {
+  display: block;
+  font-size: 12px;
+}

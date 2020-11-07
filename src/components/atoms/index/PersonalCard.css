@@ -1,0 +1,14 @@
+.personal_card {
+  width: 240px;
+  height: 300px;
+  margin: 20px;
+  margin-right: auto;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px #ccc;
+}
+
+.title {
+  font-size: 150%;
+}

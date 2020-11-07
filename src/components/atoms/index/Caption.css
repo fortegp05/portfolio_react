@@ -1,0 +1,15 @@
+
+/* コンテンツのh2タグの設定 */
+.caption {
+  margin-bottom: 10px;
+  clear: both;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.caption_logo {
+  width: 40px;
+  height: 40px;
+  margin-top: -5px;
+  margin-right: 5px;
+}

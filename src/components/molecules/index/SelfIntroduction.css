@@ -1,0 +1,15 @@
+.two_column {
+  display: -webkit-box;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.two_column_img {
+  max-width: 150px;
+  text-align: center;
+}
+
+.two_column_about {
+  width: 80%;
+  padding: 0 10px 14px;
+}

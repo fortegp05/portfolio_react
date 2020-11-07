@@ -1,0 +1,5 @@
+.profile_information_area::after {
+  display: block;
+  clear: both;
+  content: '';
+}
