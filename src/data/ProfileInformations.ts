@@ -34,7 +34,7 @@ const ProfileInformation = [
     id: 5,
     title: 'ミニ四駆', 
     text: 'MAメイン。<br>シャイニングスコーピオン好き。', 
-    backgroundImgFileName: 'IMG_1696.JPG', 
+    backgroundImgFileName: 'IMG_1696.jpg', 
     link: 'mini4wd.html'
   },
   {
