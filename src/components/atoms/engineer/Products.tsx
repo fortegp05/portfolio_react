@@ -23,9 +23,9 @@ const ProductDatas = [
   {
     id: 1,
     title: 'Portfolio',
-    url: 'https://fortegp05.github.io/aozorafm/',
-    urlText: 'https://fortegp05.github.io/aozorafm/',
-    src: 'https://github.com/fortegp05/portfolio',
+    url: 'https://fortegp05.net/',
+    urlText: 'https://fortegp05.net/',
+    src: 'https://github.com/fortegp05/portfolio_react',
     description:
       'このサイトです。Reactで作られています。',
     skills: [
@@ -33,9 +33,6 @@ const ProductDatas = [
       { id: 2, logo: 'images/typescript-icon.svg' },
       { id: 3, logo: 'images/react.svg' },
       { id: 4, logo: 'images/html-5.png' },
-      { id: 5, logo: 'images/spring.svg' },
-      { id: 6, logo: 'images/kotlin.svg' },
-      { id: 7, logo: 'images/heroku-icon.svg' },
     ],
     classNameShow: "show",
   },
