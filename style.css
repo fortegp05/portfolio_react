@@ -1,0 +1,219 @@
+/* 全体の設定--------------------------------------------------------------------------- */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;	/* フォント種類 */
+  font-size: 16px;	/* 文字サイズ */
+  line-height: 2;		/* 行間 */
+  color: #002e33;	/* 全体の文字色 */
+  background: #fff;	/* 背景色 */
+  -webkit-text-size-adjust: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+figure,
+form {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul { list-style-type: none; }
+
+ol {
+  padding-bottom: 15px;
+  padding-left: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: none;
+}
+
+table {
+  font-size: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+iframe {
+  width: 100%;
+}
+
+.index_container p {
+  padding: 0 20px 14px;
+}
+
+/* リンク（全般）設定
+--------------------------------------------------------------------------- */
+a {
+  color: #002e33;	/* リンクテキストの色 */
+  transition: 0.3s;	/* マウスオン時の移り変わるまでの時間設定。0.3秒。 */
+}
+
+.a_no_line {
+  text-decoration: none;
+}
+
+.index_container {
+  max-width: 1400px;	/* 最大幅 */
+  margin: 50px 50px 0;	/* 上、左右、下に空けるブロックの外側へのスペース */
+}
+
+/* 箇条書き */
+ul.list_items {
+  padding-left: 50px;
+}
+
+ul.list_items li {
+  list-style-type: disc;
+}
+
+ul.list_items li ul {
+  padding-left: 20px;
+}
+
+ul.list_items li ul li {
+  list-style-type: circle;
+}
+
+ul.list_items li ul li ul {
+  padding-left: 20px;
+}
+
+ul.list_items li ul li ul li {
+  list-style-type: square;
+}
+
+/* 記事ページ設定
+--------------------------------------------------------------------------- */
+.article_h1 {
+  margin-bottom: -10px;
+}
+
+.article_container {
+  max-width: 1400px;	/* 最大幅 */
+  margin: 0 0 0 30px;
+}
+
+.article_contents {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 300px;
+  padding-top: 100px;
+}
+
+.article_contents > section {
+  grid-row: 1;
+  grid-column: 1 / 2;
+  width: 99%;
+  margin-bottom: 30px;
+}
+
+.article_contents > .toc {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  grid-row: 1;
+  grid-column: 2 / 3;
+  height: 100vh;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.3;
+  background: lightgray;
+}
+
+/* コンテンツのp(段落)タグ設定 */
+.article_contents p {
+  padding: 0 20px 14px;	/* 上、左右、下への余白 */
+}
+
+.article_contents h2 + p,
+.article_contents h3 + p {
+  margin-top: -5px;
+}
+
+.article_container h2 {
+  padding: 5px;	/* 上下、左右への余白 */
+  margin-bottom: 15px;
+  clear: both;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.article_container h3 {
+  padding-left: 20px;	/* 上下、左右への余白 */
+  clear: both;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.update_date {
+  margin-top: -40px;
+  margin-left: 20px;
+  color: gray;
+}
+
+/* ギャラリー */
+.imgCardArea {
+  padding-left: 20px;
+}
+
+.imgCardArea::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+@media (max-width: 768px) {
+  .imgCardArea {
+    float: none;
+  }
+}
+
+.imgCard {
+  float: left;
+  width: 400px;
+  height: auto;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.imgData {
+  float: left;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 画面幅1000px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 1000px) {
+  .article_contents {
+    display: block;
+  }
+
+  .article_contents > section {
+    width: 97%;
+  }
+
+  /* TOC非表示 */
+  .article_contents > .toc {
+    display: none;
+  }
+}
