@@ -22,33 +22,44 @@ const ProgramingSkillDatas = [
   {
     id: 4,
     skill: 'Ruby(Rails)',
-    description: '2019年9月から現在業務で利用している。',
+    description: '2019年9月から3年間業務で利用していた。',
   },
   {
     id: 5,
+    skill: 'Python',
+    description: '3系を2023年11月から業務で使用している。',
+  },
+  {
+    id: 6,
     skill: 'JavaScript',
     description: '12年ほど業務のフロントエンド開発にて使用。',
   },
   {
-    id: 6,
+    id: 7,
     skill: 'TypeScript',
     description:
       '2019年9月から現在業務で利用している。<BR>本サイトでも使用している。',
   },
   {
-    id: 7,
+    id: 8,
     skill: 'React',
     description:
-      '2019年9月から現在業務で利用している。<BR>本サイトでも使用している。',
+      '2019年9月から3年間業務で利用していた。<BR>本サイトでも使用している。',
   },
   {
-    id: 8,
+    id: 9,
+    skill: 'Vue.js',
+    description:
+      '3系を2023年11月から9ヶ月間業務で使用していた。',
+  },
+  {
+    id: 10,
     skill: 'jQuery',
     description:
       '2016年から2年間1.4系、または1.7系でフロントエンド開発に使用。<br>jQuery Mobileの開発経験もあり。2016年まではJavaScriptにてフロントエンド開発を実施。',
   },
   {
-    id: 9,
+    id: 11,
     skill: 'C/C++',
     description:
       '組み込み開発で1年経験あり。<br>静的構造解析の対象として5年間分析の経験あり。<br>関数呼び出しの可視化やC++クラス継承関係の可視化などを実施。',

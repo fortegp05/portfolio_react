@@ -9,7 +9,7 @@ const SowtwareDevelopment: FC = () => {
             Webアプリケーションの開発
             <ul className="list_items">
                 <li>
-                    Java9年、PHP2年、Rails1ヶ月
+                    Java9年、PHP2年、Rails3年、Python9ヶ月
                 </li>
             </ul>
         </li>
@@ -40,8 +40,7 @@ const SowtwareDevelopment: FC = () => {
                     Webサーバー、DBサーバー構築、運用経験を8年。
                 </li>
                 <li>
-                    AWS + WordPressによるメディア系サイトの構築を2ヶ月。<br />
-                    EC2、RDS、CloudFront、S3、AWS CM、SMS。
+                    AWS Lambda、CloudFront、CloudFormation、S3、CodeCommit、CodeBuild、CodePipeline、SES、SNS、CloudWatch。
                 </li>
             </ul>
         </li>
@@ -58,7 +57,7 @@ const SowtwareDevelopment: FC = () => {
                 </li>
                 <li>
                     DB：<br />
-                    PostgreSQL7年、MySQL4年、SQLServer1年<br />
+                    PostgreSQL8年、MySQL7年、SQLServer1年<br />
                     マルチバリューDBとして4D DAM(現在はAIDAM)3年、MySQLは趣味でも使用中2年。
                 </li>
                 <li>

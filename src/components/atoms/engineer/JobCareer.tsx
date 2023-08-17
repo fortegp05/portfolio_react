@@ -5,7 +5,45 @@ const JobCareer: FC = () => {
   return (
     <>
       <h2>職務経歴の詳細</h2>
-      <h3>現職：自社SaaSアプリのWebエンジニア(2019年09月～)</h3>
+      <h3>現職：受託開発会社での受託開発(2022年11月〜)</h3>
+      <div className="job_career_list">
+        ビデオカメラ管理・監視システムの構築(2022年11月〜2023年7月)
+        <ul className="list_items">
+          <li>
+            お客様の販売するビデオカメラを購入、設置後の管理、映像の監視を行うWebシステムの構築<br />
+            言語はPython(3系)、Vue.js(3系)
+            <ul className="list_items">
+              <li>詳細設計</li>
+              <li>開発</li>
+              <li>テスト(pytest)</li>
+              <li>インフラ構築(AWS CloudFormation、CloudFront)</li>
+            </ul>
+          </li>
+        </ul>
+        業務用エアコン管理・操作システムの改修(2023年8月〜)
+        <ul className="list_items">
+          <li>
+            お客様の販売する業務用エアコンを購入、設置後の管理を行うWebシステムの改修<br />
+            バックエンド(API部分)のみ担当し言語はPython(3系)
+            <ul className="list_items">
+              <li>詳細設計</li>
+              <li>開発</li>
+              <li>テスト(pytest)</li>
+              <li>E2Eテスト(Tavern)</li>
+            </ul>
+          </li>
+        </ul>
+        メンバー管理
+        <ul className="list_items">
+          <li>
+            メンバー管理<br />
+            受託開発として請け負った開発のチームリーダーを担当(プロジェクトリーダーは別にいて社内のリーダーを担当)<br />
+            主に評価、工数管理、技術的相談、メンバー育成、顧客折衝などを担当した。<br />
+            並行して開発員として開発も行っていた。<br />
+          </li>
+        </ul>
+      </div>
+      <h3>前職：自社SaaSアプリのWebエンジニア(2019年09月～2022年10月)</h3>
       <div className="job_career_list">
         SaaSアプリの開発。
         <ul className="list_items">
@@ -18,6 +56,14 @@ const JobCareer: FC = () => {
               <li>テスト(RSpec)</li>
               <li>保守・運用</li>
             </ul>
+          </li>
+          <li>
+            開発チームのリーダー業務<br />
+            3名からなる開発チームのリーダー業務を担当した。<br />
+            リーダー業務ではタスクマネジメントを中心に担当した。<br />
+            メンバーの望む方向性とチームでやるべき事との整合性を取ったり、<br />
+            メンバーのやるべきことが無くならないように調整するなどした。<br />
+            またPMやQAとの折衝などを行いチーム開発業務が滞りなく進むように配慮した。<br />
           </li>
           <li>
             システムの監査を行うログを出力する監査ログ出力機能の開発<br />
@@ -111,7 +157,7 @@ const JobCareer: FC = () => {
           </li>
         </ul>
       </div>
-      <h3>前職：スマホアプリの開発(2018年09月～2019年8月)</h3>
+      <h3>スマホアプリの開発(2018年09月～2019年8月)</h3>
       <div className="job_career_list">
         自社開発のスマホアプリについてメンバーとして主に開発を担当。
         <ul className="list_items">

@@ -11,8 +11,8 @@ const PersonalCard: FC = () => {
         className="a_no_line"
       >
         <img src="images/FORTE.jpg" className="circle_icon" alt="" />
-        <p className="title">Twitter</p>
-        <p>ご連絡はTwitterのDMよりお願いします。</p>
+        <p className="title">X(旧Twitter)</p>
+        <p>ご連絡はX(旧Twitter)のDMよりお願いします。</p>
       </a>
     </div>
   );

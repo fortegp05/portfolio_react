@@ -6,7 +6,7 @@ const Videogame: FC = () => {
   return (
     <>
       <h2>いまやっているゲーム</h2>
-      <div className="update_date">2020年10月現在</div>
+      <div className="update_date">2023年08月現在</div>
       <div>
           <ul className="list_items">
               <li>
@@ -14,9 +14,8 @@ const Videogame: FC = () => {
                   <a href="https://jp.finalfantasyxiv.com/lodestone/character/1688818/" target="_blank" rel="noopener noreferrer">LODESTONE</a>
               </li>
               <li><a href="https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88X_%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%97%E4%BA%94%E3%81%A4%E3%81%AE%E7%A8%AE%E6%97%8F_%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3" target="_blank" rel="noopener noreferrer">DQ10</a></li>
-              <li><a href="https://ja.wikipedia.org/wiki/Bloodborne" target="_blank" rel="noopener noreferrer">Bloodborne</a></li>
-              <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%AA%E3%82%B3%E3%83%B3_%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%A9%E3%83%B3%E3%82%BA" target="_blank" rel="noopener noreferrer">ゴーストリコン ワイルドランズ</a></li>
               <li><a href="https://store.steampowered.com/app/1307550/Craftopia/?l=japanese" target="_blank" rel="noopener noreferrer">Craftopia</a></li>
+              <li><a href="https://store.steampowered.com/app/1340260/_/?l=japanese" target="_blank" rel="noopener noreferrer">チャカ王の迷宮</a></li>
           </ul>
       </div>
 
@@ -374,9 +373,10 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E9%AD%94%E7%A5%9E%E3%81%AE%E7%AC%9B" target="_blank" rel="noopener noreferrer">レイトン教授と魔神の笛</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA_%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC2" target="_blank" rel="noopener noreferrer">ドラゴンクエストモンスターズ ジョーカー2</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E9%80%86%E8%BB%A2%E6%A4%9C%E4%BA%8B#%E9%80%86%E8%BB%A2%E6%A4%9C%E4%BA%8B2" target="_blank" rel="noopener noreferrer">逆転検事2</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88_%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF" target="_blank" rel="noopener noreferrer">ゴースト トリック</a></li>
       </ul>
 
-      <h3 className="hard_title">ＰＳＰ</h3>
+      <h3 className="hard_title">PSP</h3>
       <ul id="pspList" className="list_items">
           <li><a href="https://ja.wikipedia.org/wiki/%E6%A5%B5%E9%AD%94%E7%95%8C%E6%9D%91" target="_blank" rel="noopener noreferrer">極魔界村</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%AE%E3%82%A2%E3%82%BD%E3%83%AA%E3%83%83%E3%83%89_%E3%83%90%E3%83%B3%E3%83%89%E3%83%87%E3%82%B7%E3%83%8D" target="_blank" rel="noopener noreferrer">メタルギアソリッド バンドデシネ</a></li>
@@ -412,6 +412,7 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%AE%E3%82%A2_%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0_%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%B9" target="_blank" rel="noopener noreferrer">メタルギア ライジング リベンジェンス</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AB%E3%83%BC" target="_blank" rel="noopener noreferrer">ガンダムブレイカー</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG_INFINITE_BATTLE" target="_blank" rel="noopener noreferrer">スーパーロボット大戦OG INFINITE BATTLE</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%8F%E3%82%B6%E3%83%BC%E3%83%896" target="_blank" rel="noopener noreferrer">バイオハザード6</a></li>
       </ul>
 
       <h3 className="hard_title">ニンテンドー3DS</h3>
@@ -439,6 +440,7 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88XI_%E9%81%8E%E3%81%8E%E5%8E%BB%E3%82%8A%E3%81%97%E6%99%82%E3%82%92%E6%B1%82%E3%82%81%E3%81%A6" target="_blank" rel="noopener noreferrer">ドラゴンクエストXI 過ぎ去りし時を求めて</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4" target="_blank" rel="noopener noreferrer">大逆転裁判2 -成歩堂龍ノ介の覺悟-</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E6%A8%B9%E3%81%A8%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3" target="_blank" rel="noopener noreferrer">世界樹と不思議のダンジョン2</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA_%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC3" target="_blank" rel="noopener noreferrer">ドラゴンクエストモンスターズ ジョーカー3</a></li>
       </ul>
 
       <h3 className="hard_title">PS VITA</h3>
@@ -475,6 +477,7 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/%E7%84%A1%E5%8F%8COROCHI_3#%E7%84%A1%E5%8F%8COROCHI3_Ultimate" target="_blank" rel="noopener noreferrer">無双OROCHI 3 Ultimate</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%83%86%E3%83%83%E3%83%89_%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%89%E3%83%A9%E3%83%89%E3%81%AE%E7%A7%98%E5%AE%9D" target="_blank" rel="noopener noreferrer">アンチャーテッド エル・ドラドの秘宝(アンチャーテッド コレクション)</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%BC%E3%82%B9IX" target="_blank" rel="noopener noreferrer">イースIX -Monstrum NOX-</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A630" target="_blank" rel="noopener noreferrer">スーパーロボット大戦30</a></li>
       </ul>
 
       <h3 className="hard_title">Nintendo Switch</h3>
@@ -482,6 +485,21 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B32" target="_blank" rel="noopener noreferrer">スプラトゥーン2</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC_%E3%83%96%E3%83%AC%E3%82%B9_%E3%82%AA%E3%83%96_%E3%82%B6_%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89" target="_blank" rel="noopener noreferrer">ゼルダの伝説 ブレス オブ ザ ワイルド</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%82%AA_%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4" target="_blank" rel="noopener noreferrer">スーパーマリオ オデッセイ</a></li>
+          <li><a href="https://dxm.marv.jp/" target="_blank" rel="noopener noreferrer">DAEMON X MACHINA</a></li>
+          <li><a href="https://bonusstage.net/kuroshinju/" target="_blank" rel="noopener noreferrer">伊勢志摩ミステリー案内 偽りの黒真珠</a></li>
+          <li><a href="https://bonusstage.net/ginreika/" target="_blank" rel="noopener noreferrer">秋田・男鹿ミステリー案内 凍える銀鈴花</a></li>
+          <li><a href="https://bonusstage.net/taketourou/" target="_blank" rel="noopener noreferrer">大分・別府ミステリー案内 歪んだ竹灯篭</a></li>
+          <li><a href="https://www.dqx.jp/offline/" target="_blank" rel="noopener noreferrer">ドラゴンクエストX オフライン</a></li>
+          <li><a href="https://www.nintendo.co.jp/zelda/totk/index.html" target="_blank" rel="noopener noreferrer">ゼルダの伝説 ティアーズ オブ ザ キングダム</a></li>
+          <li><a href="https://www.jp.square-enix.com/paranormasight/" target="_blank" rel="noopener noreferrer">パラノマサイト</a></li>
+          <li><a href="https://store-jp.nintendo.com/list/software/70010000022203.html" target="_blank" rel="noopener noreferrer">TETRA</a></li>
+      </ul>
+
+      <h3 className="hard_title">プレイステーション5</h3>
+      <ul id="ps4List" className="list_items">
+          <li><a href="https://www.ea.com/ja-jp/games/starwars/jedi/jedi-survivor" target="_blank" rel="noopener noreferrer">Star Wars ジェダイ：サバイバー</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%8F%E3%82%B6%E3%83%BC%E3%83%89_RE:4" target="_blank" rel="noopener noreferrer">バイオハザード RE:4</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCXVI" target="_blank" rel="noopener noreferrer">ファイナルファンタジーXVI</a></li>
       </ul>
 
       <h3 className="hard_title">PC(Steam他)</h3>
@@ -497,6 +515,12 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA_%E3%82%B8%E3%82%A7%E3%83%80%E3%82%A4:%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%B3%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC" target="_blank" rel="noopener noreferrer">スター・ウォーズ ジェダイ:フォールン・オーダー</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%AA%E3%82%B3%E3%83%B3_%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%A9%E3%83%B3%E3%82%BA" target="_blank" rel="noopener noreferrer">ゴーストリコン ワイルドランズ</a></li>
           <li><a href="https://store.steampowered.com/app/1307550/Craftopia/?l=japanese" target="_blank" rel="noopener noreferrer">Craftopia</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%A9%82%E3%81%AE%E3%82%B5%E3%82%AF%E3%83%8A%E3%83%92%E3%83%A1" target="_blank" rel="noopener noreferrer">天穂のサクナヒメ</a></li>
+          <li><a href="https://sonic.sega.jp/SonicFrontiers/" target="_blank" rel="noopener noreferrer">ソニックフロンティア</a></li>
+          <li><a href="https://store.steampowered.com/app/801480/Agent_A_A_puzzle_in_disguise/?l=japanese" target="_blank" rel="noopener noreferrer">Agent A: A puzzle in disguise</a></li>
+          <li><a href="https://store.steampowered.com/app/312670/Strange_Brigade/?l=japanese" target="_blank" rel="noopener noreferrer">Strange Brigade</a></li>
+          <li><a href="https://store.steampowered.com/app/368370/Her_Story/?l=japanese" target="_blank" rel="noopener noreferrer">Her Story</a></li>
+          <li><a href="https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/?l=japanese" target="_blank" rel="noopener noreferrer">Sherlock Holmes: Crimes and Punishments</a></li>
       </ul>
 
       <h3 className="hard_title">スマートフォン</h3>
@@ -506,6 +530,7 @@ const Videogame: FC = () => {
           <li><a href="https://ja.wikipedia.org/wiki/Fate/Grand_Order" target="_blank" rel="noopener noreferrer">Fate/Grand Order</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6DD" target="_blank" rel="noopener noreferrer">スパロボDD</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF" target="_blank" rel="noopener noreferrer">DQウォーク</a></li>
+          <li><a href="https://www.capcom-games.com/product/ja-jp/edotan/" target="_blank" rel="noopener noreferrer">えどたん</a></li>
       </ul>
     </>
   )

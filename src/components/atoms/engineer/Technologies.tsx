@@ -35,6 +35,12 @@ const Technologies: FC = () => {
       <div className="tile">
         <img className="skillLogo" src="images/kotlin.svg" alt="" />
       </div>
+      <div className="tile">
+        <img className="skillLogo" src="images/python.svg" alt="" />
+      </div>
+      <div className="tile">
+        <img className="skillLogo" src="images/vue.svg" alt="" />
+      </div>
     </>
   );
 };
