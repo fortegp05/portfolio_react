@@ -64,6 +64,12 @@ const ProgramingSkillDatas = [
     description:
       '組み込み開発で1年経験あり。<br>静的構造解析の対象として5年間分析の経験あり。<br>関数呼び出しの可視化やC++クラス継承関係の可視化などを実施。',
   },
+  {
+    id: 12,
+    skill: 'Terraform',
+    description:
+      'AWSの構築、運用保守にて使用。バージョンは1.5。',
+  },
 ];
 
 const ProgramingSkills: FC = () => {

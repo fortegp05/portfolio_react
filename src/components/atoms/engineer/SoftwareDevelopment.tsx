@@ -42,6 +42,9 @@ const SowtwareDevelopment: FC = () => {
                 <li>
                     AWS Lambda、CloudFront、CloudFormation、S3、CodeCommit、CodeBuild、CodePipeline、SES、SNS、CloudWatch。
                 </li>
+                <li>
+                    TerraformによるAWSインフラの構築、運用保守経験
+                </li>
             </ul>
         </li>
 

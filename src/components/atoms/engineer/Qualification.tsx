@@ -6,6 +6,7 @@ const Qualification: FC = () => {
       <h2>資格(習得時期)</h2>
       <div>
           <ul className="list_items">
+              <li>AWS SAP(SAP-C02 2024年3月)</li>
               <li>AWS SAA(SAA-C03 2023年3月)</li>
               <li>認定スクラムマスター(2019年4月)</li>
               <li>

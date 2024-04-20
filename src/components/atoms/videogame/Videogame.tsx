@@ -500,6 +500,7 @@ const Videogame: FC = () => {
           <li><a href="https://www.ea.com/ja-jp/games/starwars/jedi/jedi-survivor" target="_blank" rel="noopener noreferrer">Star Wars ジェダイ：サバイバー</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%8F%E3%82%B6%E3%83%BC%E3%83%89_RE:4" target="_blank" rel="noopener noreferrer">バイオハザード RE:4</a></li>
           <li><a href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCXVI" target="_blank" rel="noopener noreferrer">ファイナルファンタジーXVI</a></li>
+          <li><a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B3%E3%82%A2VI_%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%BC%E3%82%BA%E3%82%AA%E3%83%96%E3%83%AB%E3%83%93%E3%82%B3%E3%83%B3" target="_blank" rel="noopener noreferrer">ARMORED CORE VI FIRES OF RUBICON</a></li>
       </ul>
 
       <h3 className="hard_title">PC(Steam他)</h3>
@@ -521,6 +522,12 @@ const Videogame: FC = () => {
           <li><a href="https://store.steampowered.com/app/312670/Strange_Brigade/?l=japanese" target="_blank" rel="noopener noreferrer">Strange Brigade</a></li>
           <li><a href="https://store.steampowered.com/app/368370/Her_Story/?l=japanese" target="_blank" rel="noopener noreferrer">Her Story</a></li>
           <li><a href="https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/?l=japanese" target="_blank" rel="noopener noreferrer">Sherlock Holmes: Crimes and Punishments</a></li>
+          <li><a href="https://store.steampowered.com/app/1716740/Starfield/?l=japanese" target="_blank" rel="noopener noreferrer">Starfield</a></li>
+          <li><a href="https://store.steampowered.com/app/1424600/Verne_The_Shape_of_Fantasy/" target="_blank" rel="noopener noreferrer">Verne: The Shape of Fantasy</a></li>
+          <li><a href="https://store.steampowered.com/app/522470/The_House_of_Da_Vinci/?l=japanese" target="_blank" rel="noopener noreferrer">The House of Da Vinci</a></li>
+          <li><a href="https://store.steampowered.com/app/1259840/The_House_of_Da_Vinci_2/?l=japanese" target="_blank" rel="noopener noreferrer">The House of Da Vinci 2</a></li>
+          <li><a href="https://store.steampowered.com/app/1603640/The_House_of_Da_Vinci_3/?l=japanese" target="_blank" rel="noopener noreferrer">The House of Da Vinci 3</a></li>
+          <li><a href="https://store.steampowered.com/app/1623730/Palworld/?l=japanese" target="_blank" rel="noopener noreferrer">Palworld / パルワールド</a></li>
       </ul>
 
       <h3 className="hard_title">スマートフォン</h3>

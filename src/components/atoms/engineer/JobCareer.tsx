@@ -20,16 +20,28 @@ const JobCareer: FC = () => {
             </ul>
           </li>
         </ul>
-        業務用エアコン管理・操作システムの改修(2023年8月〜)
+        業務用エアコン管理・操作システムの改修(2023年8月〜2024年2月)
         <ul className="list_items">
           <li>
             お客様の販売する業務用エアコンを購入、設置後の管理を行うWebシステムの改修<br />
-            バックエンド(API部分)のみ担当し言語はPython(3系)
+            バックエンド(API部分)は担当し言語はPython(3系)、一部インフラも担当
             <ul className="list_items">
               <li>詳細設計</li>
               <li>開発</li>
               <li>テスト(pytest)</li>
               <li>E2Eテスト(Tavern)</li>
+              <li>AWSインフラ構築(CloudFormation、CloudFront、S3、Route53、ACM、WAF)</li>
+            </ul>
+          </li>
+        </ul>
+        大規模ECサイト・店舗管理システムのインフラ構築運用保守(2024年3月〜)
+        <ul className="list_items">
+          <li>
+            世界規模の通販サイト、店舗の管理システムのインフラの構築運用保守<br />
+            インフラはTerraformでAWSの構築、管理
+            <ul className="list_items">
+              <li>インフラ構築(AWS Terraform)</li>
+              <li>デプロイ(Jenkins)</li>
             </ul>
           </li>
         </ul>
