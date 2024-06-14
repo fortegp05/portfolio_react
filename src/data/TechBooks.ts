@@ -10,19 +10,25 @@ const TechBooks = [
     type: '単著',
     books: [
       {
-        id: 1,
-        title: '入門!実践!Kotlin Compose Multiplatformでデスクトップアプリ開発!', 
-        description: 'Kotlin Compose Multiplatformでデスクトップアプリを開発する流れを紹介する技術同人誌!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!', 
+        id: 8,
+        title: 'ITエンジニアとして生きる技術', 
+        description: 'ITエンジニアとしての考え方、ライフハックのようなノウハウを紹介する技術同人誌!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/20/214849" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
         imgFile: 'daily_title.png'
       },
       {
-        id: 2,
+        id: 7,
+        title: '入門!実践!Kotlin Compose Multiplatformでデスクトップアプリ開発!', 
+        description: 'Kotlin Compose Multiplatformでデスクトップアプリを開発する流れを紹介する技術同人誌!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2023/11/08/205042" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
+        imgFile: 'daily_title.png'
+      },
+      {
+        id: 6,
         title: 'いろいろ実践!サーバーサイドKotlin Vol.2', 
         description: '「入門!実践!サーバーサイドKotlin」、「もっと実践!サーバーサイドKotlin」に続く「実践!サーバーサイドKotlin」シリーズ第三段!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!', 
         imgFile: 'daily_title.png'
       },
       {
-        id: 3,
+        id: 5,
         title: 'まいにち続ける技術', 
         description: '毎日なにかを続けるための考え方や事例をお伝えするノウハウ本。<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2020/09/09/080659" target="_blank" rel="noopener noreferrer nofollow">こちら</a>。', 
         imgFile: 'daily_title.png'
@@ -34,19 +40,19 @@ const TechBooks = [
         imgFile: 'ssk_3.png'
       },
       {
-        id: 5,
+        id: 3,
         title: 'もっと実践!サーバーサイドKotlin',
         description: 'Spring BootなサーバーサイドKotlinの実践としてユーザー登録・認証とデプロイを学べる本。<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2020/03/07/174311" target="_blank" rel="noopener noreferrer nofollow">こちら</a>。',
         imgFile: 'title_ssk2.jpg'
       },
       {
-        id: 6,
+        id: 2,
         title: '入門!実践!サーバーサイドKotlin',
         description: 'Spring BootでサーバーサイドKotlinに入門して実践として簡単なアプリケーションを作る本。<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2019/08/27/172327" target="_blank" rel="noopener noreferrer nofollow">こちら</a>。',
         imgFile: 'hyoshi_ssk.png'
       },
       {
-        id: 7,
+        id: 1,
         title: 'はじめる技術 つづける技術',
         description: '何かを始める、続けるための考え方や事例を書いたノウハウ本。電子版のみ<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2019/03/28/094500" target="_blank" rel="noopener noreferrer nofollow">こちら</a>。',
         imgFile: 'hyoshi_bc.jpg'

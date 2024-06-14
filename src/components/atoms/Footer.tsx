@@ -5,8 +5,7 @@ const Footer: FC = () => {
   return (
     <footer>
       <small>
-        Copyright&copy; <a href="https://twitter.com/FORTEgp05">@FORTEgp05</a>
-        All Rights Reserved.
+        Copyright&copy; <a href="https://twitter.com/FORTEgp05">@FORTEgp05</a> All Rights Reserved.
       </small>
       <span className="pr">
         《

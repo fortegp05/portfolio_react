@@ -9,7 +9,7 @@ const TechBook: FC = () => {
         {techBooks.map((techBook) => (
           <div key={techBook.id}>
             <h2>{techBook.type}</h2>
-            <div className="update_date">2023年08月現在</div>
+            <div className="update_date">2024年05月現在</div>
 
             {techBook.books.map((book) => (
               <div key={book.id}>
