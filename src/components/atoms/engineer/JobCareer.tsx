@@ -5,6 +5,21 @@ const JobCareer: FC = () => {
   return (
     <>
       <h2>職務経歴の詳細</h2>
+      <h3>業務委託：副業としてサーバーサイドKotlinによるバックエンド開発(2024年10月〜)</h3>
+      <div className="job_career_list">
+        通信教育WebサービスのAPI改修(2024年10月〜)
+        <ul className="list_items">
+          <li>
+            Webサービスで通信教育を受けられるシステムのAPI改修<br />
+            言語はKotlin。<br />
+            業務委託の詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/08/18/191629" target="_blank" rel="noopener noreferrer">こちら</a>から。
+            <ul className="list_items">
+              <li>開発</li>
+              <li>単体テスト(Kotest)</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
       <h3>現職：成果報酬型の準委任契約でWebシステム開発・インフラ構築(2022年11月〜)</h3>
       <div className="job_career_list">
         ビデオカメラ管理・監視システムの構築(2022年11月〜2023年7月)

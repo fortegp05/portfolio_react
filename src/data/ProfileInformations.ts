@@ -5,7 +5,7 @@ const ProfileInformation = [
   {
     id: 1,
     title: 'ITエンジニア', 
-    text: 'Webシステム、スマホアプリ(Android)、インフラ(オンプレ、VMware、AWS)、<br>チーム開発、スクラムなど。',
+    text: 'Webシステム、Androidアプリ、AWS、チーム開発、スクラムなど。<br>業務委託のお仕事もしてます!',
     backgroundImgFileName: 'rawpixel-632449-unsplash.jpg',
     link: 'engineer.html'
   },

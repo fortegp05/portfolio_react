@@ -10,6 +10,18 @@ const TechBooks = [
     type: '単著',
     books: [
       {
+        id: 10,
+        title: 'Micronautで入門!実践!サーバーサイドKotlin', 
+        description: 'MicronautでサーバーサイドKotlinに入門して実践として簡単なAPIを作る本!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409#Micronaut%E3%81%A7%E5%85%A5%E9%96%80%E5%AE%9F%E8%B7%B5%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89Kotlin" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
+        imgFile: 'daily_title.png'
+      },
+      {
+        id: 9,
+        title: 'アンチパターンから学ぶコミュニケーション', 
+        description: '具体的なアンチパターンからコミュニケーションについて学ぶ技術同人誌!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409#%E3%82%A2%E3%83%B3%E3%83%81%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
+        imgFile: 'daily_title.png'
+      },
+      {
         id: 8,
         title: 'ITエンジニアとして生きる技術', 
         description: 'ITエンジニアとしての考え方、ライフハックのようなノウハウを紹介する技術同人誌!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/20/214849" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 

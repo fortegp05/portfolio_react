@@ -11,7 +11,7 @@ const ProgramingSkillDatas = [
     id: 2,
     skill: 'Kotlin',
     description:
-      '業務では3ヶ月程度Android開発にて使用<br>趣味でサーバーサイドKotlinの技術同人誌を執筆',
+      '業務では3ヶ月程度Android開発とサーバーサイドKotlinで使用<br>趣味でサーバーサイドKotlinの技術同人誌を執筆',
   },
   {
     id: 3,
