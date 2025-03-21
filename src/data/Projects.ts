@@ -18,7 +18,7 @@ const Projects = [
     link: 'https://zenn.dev/forte', 
     imgFileName: 'https://zenn.dev/images/og-large.png', 
     title: 'Zenn', 
-    text: 'お試しで運用中'
+    text: 'ソースコードを伴う記事'
   },
   {
     id: 4,
@@ -33,6 +33,13 @@ const Projects = [
     imgFileName: 'https://avatars2.githubusercontent.com/u/44237094?s=400&amp;v=4', 
     title: 'GitHub', 
     text: '公開中のソース置き場。'
+  },
+  {
+    id: 6,
+    link: 'https://note.com/fortegp05', 
+    imgFileName: 'https://assets.st-note.com/poc-image/manual/production/default_top_ogp_202212.png', 
+    title: 'note', 
+    text: '雑な記事(雑記)置き場'
   }
 ]
 

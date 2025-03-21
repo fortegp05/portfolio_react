@@ -37,6 +37,17 @@ const PersonalCard: FC = () => {
           <p className="title">bluesky</p>
         </a>
       </div>
+      <div className="personal_card">
+        <a
+          href="https://mixi.social/@fortegp05"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="a_no_line"
+        >
+          <img src="images/FORTE.jpg" className="circle_icon" alt="" />
+          <p className="title">mixi2(最近の日常はこちら)</p>
+        </a>
+      </div>
     </>
   );
 };
