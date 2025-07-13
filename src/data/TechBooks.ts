@@ -10,6 +10,18 @@ const TechBooks = [
     type: '単著',
     books: [
       {
+        id: 12,
+        title: '超入門！サーバーサイドKotlin', 
+        description: 'サーバーサイドKotlinに入門する無料本！<BR>電子版は<a href="https://speakerdeck.com/fortegp05/sski1" target="_blank" rel="nofollow">こちら</a>でダウンロード!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
+        imgFile: 'daily_title.png'
+      },
+      {
+        id: 11,
+        title: 'MicronautでgRPCに入門！実践！サーバーサイドKotlin', 
+        description: 'MicronautでサーバーサイドKotlinのgRPCを入門する本！<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
+        imgFile: 'daily_title.png'
+      },
+      {
         id: 10,
         title: 'Micronautで入門!実践!サーバーサイドKotlin', 
         description: 'MicronautでサーバーサイドKotlinに入門して実践として簡単なAPIを作る本!<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409#Micronaut%E3%81%A7%E5%85%A5%E9%96%80%E5%AE%9F%E8%B7%B5%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89Kotlin" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
