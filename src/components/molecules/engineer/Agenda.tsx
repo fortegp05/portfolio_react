@@ -14,7 +14,7 @@ const Agenda: FC = () => {
   return (
     <>
       <h2>職務経歴の概要</h2>
-      <div className="update_date">2023年08月現在</div>
+      <div className="update_date">2026年01月現在</div>
       <SoftwareDevelopment />
       <ProgramingSkills />
       <JobCareer />

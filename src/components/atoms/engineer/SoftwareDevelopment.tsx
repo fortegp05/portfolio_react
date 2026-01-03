@@ -9,7 +9,7 @@ const SowtwareDevelopment: FC = () => {
             Webアプリケーションの開発
             <ul className="list_items">
                 <li>
-                    Java9年、PHP2年、Rails3年、Python9ヶ月
+                    Java9年、PHP2年、Rails3年、Python1年、サーバーサイドKotlin1年3ヶ月
                 </li>
             </ul>
         </li>
@@ -86,7 +86,16 @@ const SowtwareDevelopment: FC = () => {
             <ul className="list_items">
                 <li>
                     2019年4月にCSMを取得。<br />
-                    スクラム開発の経験はないが、社内にスクラムについての教育を実施(予定)
+                    クライアントワークにて、スクラムマスターとして5人のスクラムチームと協働
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            アジャイルコーチ
+            <ul className="list_items">
+                <li>
+                    クライアントワークにて、スクラムチームと開発組織ら対してコーチングを実施
                 </li>
             </ul>
         </li>

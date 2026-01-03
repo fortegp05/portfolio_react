@@ -10,6 +10,12 @@ const TechBooks = [
     type: '単著',
     books: [
       {
+        id: 13,
+        title: '異夢同船〜異なる夢を持ちチームで作業する〜', 
+        description: '目的が異なっても同じチームで作業することにフォーカスした本！<BR>電子版は<a href="https://fortegp05.booth.pm/" target="_blank" rel="nofollow">BOOTH</a>で販売中!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
+        imgFile: 'daily_title.png'
+      },
+      {
         id: 12,
         title: '超入門！サーバーサイドKotlin', 
         description: 'サーバーサイドKotlinに入門する無料本！<BR>電子版は<a href="https://speakerdeck.com/fortegp05/sski1" target="_blank" rel="nofollow">こちら</a>でダウンロード!<BR>詳細は<a href="https://fortegp05.hatenablog.com/entry/2024/05/25/161409" target="_blank" rel="noopener noreferrer nofollow">こちら</a>', 
@@ -87,6 +93,12 @@ const TechBooks = [
     id: 2,
     type: '合同誌',
     books: [
+      {
+        id: 8,
+        title: 'ワンストップ学び',
+        description: '学びのテクニック、体験談60本集めました。 <br>購入は<a href="https://oyakata.booth.pm/items/7200580" target="_blank" rel="noopener noreferrer nofollow">こちら</a>。',
+        imgFile: ''
+      },
       {
         id: 8,
         title: '100コミュニケーション―コロナ時代のコミュニケーション100通り',

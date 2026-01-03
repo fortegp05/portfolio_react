@@ -5,9 +5,9 @@ const JobCareer: FC = () => {
   return (
     <>
       <h2>職務経歴の詳細</h2>
-      <h3>業務委託：副業としてサーバーサイドKotlinによるバックエンド開発(2024年10月〜)</h3>
+      <h3>業務委託：副業としてサーバーサイドKotlinによるバックエンド開発(2024年10月〜2025年12月)</h3>
       <div className="job_career_list">
-        通信教育WebサービスのAPI改修(2024年10月〜)
+        通信教育WebサービスのAPI改修(2024年10月〜2025年12月)
         <ul className="list_items">
           <li>
             Webサービスで通信教育を受けられるシステムのAPI改修<br />
@@ -20,7 +20,17 @@ const JobCareer: FC = () => {
           </li>
         </ul>
       </div>
-      <h3>現職：成果報酬型の準委任契約でWebシステム開発・インフラ構築(2022年11月〜)</h3>
+      <h3>現職：SIerにてクライアントワークを実施(2025年10月〜)</h3>
+      <div className="job_career_list">
+        アジャイルコーチ・スクラムマスターとしてお客様の開発チーム、組織を支援(2025年11月〜)
+        <ul className="list_items">
+          <li>
+            お客様のシステム開発現場に常駐し、開発チームをスクラムマスター・アジャイルコーチとして支援<br />
+            またエンドユーザーへのデプロイ速度を早めるため開発組織へのコンサルタントを実施
+          </li>
+        </ul>
+      </div>
+      <h3>前職：成果報酬型の準委任契約でWebシステム開発・インフラ構築(2022年11月〜2025年9月)</h3>
       <div className="job_career_list">
         ビデオカメラ管理・監視システムの構築(2022年11月〜2023年7月)
         <ul className="list_items">
@@ -49,7 +59,7 @@ const JobCareer: FC = () => {
             </ul>
           </li>
         </ul>
-        大規模ECサイト・店舗管理システムのインフラ構築運用保守(2024年3月〜)
+        大規模ECサイト・店舗管理システムのインフラ構築運用保守(2024年3月〜2025年9月)
         <ul className="list_items">
           <li>
             世界規模の通販サイト、店舗の管理システムのインフラの構築運用保守<br />
@@ -70,7 +80,7 @@ const JobCareer: FC = () => {
           </li>
         </ul>
       </div>
-      <h3>前職：自社SaaSアプリのWebエンジニア(2019年09月～2022年10月)</h3>
+      <h3>自社SaaSアプリのWebエンジニア(2019年09月～2022年10月)</h3>
       <div className="job_career_list">
         SaaSアプリの開発。
         <ul className="list_items">
